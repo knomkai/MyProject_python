@@ -1,0 +1,17 @@
+1.Create a class of pong (object for console by user)
+
+"-in side 'pong class' create 3 object (function_1)"
+-(function_2) make a movement (by 3 obj move to 2 and 2 move to 1 last is 1 move forward)
+
+2.This game need 2 side, wall at the center
+
+-use go to function for set position of this wall at the center (Wall class) *not need
+-inside (function) for loop at lower to upper
+
+3.*Big problem* pong ball
+
+pass
+
+4.score board
+
+-create a class , inside have a 'GUI score funct' and 'count score funct'
