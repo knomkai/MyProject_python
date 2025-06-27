@@ -27,9 +27,7 @@ while len(state)<77:
 
     answer_state = screen.textinput(title=f"Now {len(state)}/77 state correct",prompt="What's another state?")
     if answer_state == "Exit":
-        for i in state_data:
-            if i not in state:
-                miss_state.append(i)
+        [miss_state.append(i) for i in state_data if i not in state]
         print(miss_state)
         break
 
